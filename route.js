@@ -1,6 +1,6 @@
 const express = require('express');
 const stud = require('./Model/stud');
-const router = express.router();
+const router = express.Router();
 
 router.get("/studs", async (req,res)=>{
     
