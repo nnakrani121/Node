@@ -5,4 +5,4 @@ const schema = mongoose.schema({
     email:String
     
 })
-module.exports = mongoose.model("Student",schema);
+module.exports = mongoose.model("Stud",schema);
